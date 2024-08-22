@@ -3,10 +3,10 @@ from typing import Any
 from selenium.webdriver.common.by import By
 import logging
 from selenium import webdriver
-from web_agent.utils import actionWrapper
+from .utils import actionWrapper
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.chrome.options import Options as chrome_options
-from web_agent.config import get_config, set_waiting
+from .config import get_config, set_waiting
 from selenium.common.exceptions import (StaleElementReferenceException,
                                         NoSuchElementException,
                                         ElementNotVisibleException)

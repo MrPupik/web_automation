@@ -1,5 +1,5 @@
-from web_agent.custom_types import izWebDriver, By, DriverOptions, Selector
-from web_agent.config import get_config
+from .custom_types import izWebDriver, By, DriverOptions, Selector
+from .config import get_config
 
 
 _drivers = {}
