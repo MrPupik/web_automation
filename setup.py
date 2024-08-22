@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name="web_automation",
-    version="0.1",
+    version="0.10",
     packages=[
         "web_automation",
     ],
