@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name="decent-selenium",
-    version="0.12",
+    version="0.13",
     packages=[
         "web_automation",
     ],
