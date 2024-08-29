@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name="web_automation",
-    version="0.11",
+    name="web-automation",
+    version="0.12",
     packages=[
         "web_automation",
     ],
@@ -10,5 +10,5 @@ setup(
     package_dir={
         "web_automation": ".",
     },
-    long_description="Web Automation Tools"
+    long_description="Web Automation Tools",
 )
