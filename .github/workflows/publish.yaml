@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/web-automation
+      url: https://pypi.org/p/decent-selenium
     permissions:
       id-token: write
     steps:
